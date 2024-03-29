@@ -43,6 +43,10 @@ export default class AdVideo extends AbstractCrudObject {
     return this.slideshow_spec;
   }
 
+  set filepath (value: string) {
+    this.filepath = value;
+  }
+
 
   /**
    * Uploads filepath and creates the AdVideo object from it.
