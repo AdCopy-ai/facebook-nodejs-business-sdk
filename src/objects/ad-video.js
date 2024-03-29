@@ -80,7 +80,7 @@ export default class AdVideo extends AbstractCrudObject {
       );
     }
 
-    this.setData(response);
+    // this.setData(response);
 
     return response;
   }
