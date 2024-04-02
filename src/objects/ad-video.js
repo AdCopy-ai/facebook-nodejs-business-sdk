@@ -43,8 +43,9 @@ export default class AdVideo extends AbstractCrudObject {
     return this.slideshow_spec;
   }
 
-  set filepath (value: string) {
-    this.filepath = value;
+  set filepath (filepath: string): void {
+    // do nothing to see if this fixes the error and
+    // doesn't get stuck in an endless loop
   }
 
 
@@ -80,7 +81,7 @@ export default class AdVideo extends AbstractCrudObject {
       );
     }
 
-    // this.setData(response);
+    this.setData(response);
 
     return response;
   }
