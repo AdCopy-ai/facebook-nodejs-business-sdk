@@ -43,6 +43,16 @@ export default class AdVideo extends AbstractCrudObject {
     return this.slideshow_spec;
   }
 
+  set filepath (filepath: string): void {
+    // do nothing to see if this fixes the error and
+    // doesn't get stuck in an endless loop
+  }
+
+  set slideshow_spec(slideshow_spec: SlideshowSpec): void {
+    // do nothing to see if this fixes the error and
+    // doesn't get stuck in an endless loop
+  }
+
 
   /**
    * Uploads filepath and creates the AdVideo object from it.
