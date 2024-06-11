@@ -1,14 +1,14 @@
 {
-  "name": "facebook-nodejs-business-sdk",
-  "version": "19.0.2",
-  "description": "SDK for the Facebook Marketing API in Javascript and Node.js",
+  "name": "@adcopy/facebook-nodejs-business-sdk",
+  "version": "19.1.0",
+  "description": "AdCopy.ai Fork of SDK for the Facebook Marketing API in Javascript and Node.js",
   "author": "Facebook",
   "maintainers": [
     "Shuotian Cheng <shuotian@meta.com>"
   ],
-  "homepage": "https://github.com/facebook/facebook-nodejs-business-sdk",
+  "homepage": "https://github.com/AdCopy-ai/facebook-nodejs-business-sdk",
   "bugs": {
-    "url": "https://github.com/facebook/facebook-nodejs-business-sdk/issues"
+    "url": "https://github.com/AdCopy-ai/facebook-nodejs-business-sdk/issues"
   },
   "keywords": [
     "facebook",
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/facebook/facebook-nodejs-business-sdk.git"
+    "url": "git://github.com/AdCopy-ai/facebook-nodejs-business-sdk.git"
   },
   "dependencies": {
     "axios": "^1.4.0",
